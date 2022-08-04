@@ -36,7 +36,10 @@ A route that will show this document and everyone can study more about the proje
 - `GET /get`
 
 **Parameters:**
-Default value of `limit` is 1 but you are able to change limit to any number of emails you need. like 100.
+
+- The default value of `limit` is 1 but you are able to change limit to any number of emails you need. like 100.
+
+- The default value of `gender` is `"both"`, But if you want to get random names for Male or Female you need to set it to `male` or `female`.
 
 This route not going to generate an email for you. this only generates random and UNIQUE names.
 
