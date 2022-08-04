@@ -4,10 +4,6 @@ A short description of the project. TODO....
 
 ## Assignment
 
-### Technology
-
-Java and Kotlin, Ktor (which is a server-side and client-side network library)
-
 In most projects, we need to generate random names, but we do not want to use random characters. We need real names. 
 
 We have an email provider which provides your email address. By getting this repository they will be able to generate many random email address but meanfull names.
@@ -20,6 +16,10 @@ So by using different value we are going to generate unique name.
 ### Communication way
 
 We are going to use **JSON standard format** and so our API / web service will be RESTful.
+
+### Technology
+
+Java and Kotlin, Ktor (which is a server-side and client-side network library)
 
 ### Routes
 
