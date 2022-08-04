@@ -21,6 +21,12 @@ We are going to use **JSON standard format** and so our API / web service will b
 
 Java and Kotlin, Ktor (which is a server-side and client-side network library)
 
+### The main part
+
+When a request asks us to generate 1000 UNIQUE names. we need to make sure we are going to generate UNIQUE names.
+
+In the process, Maybe we generate 2000 names and after filtering the final result was 1000 UNIQUE names. So when we find a `limit` number of unique names. it ends and we send the output to that request.
+
 ### Routes
 
 - `GET /`
