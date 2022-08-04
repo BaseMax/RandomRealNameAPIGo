@@ -1,5 +1,7 @@
 # Random Real Name
 
+A short description of the project. TODO....
+
 ## Assignment
 
 ### Technology
