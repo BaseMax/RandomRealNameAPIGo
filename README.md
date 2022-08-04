@@ -21,6 +21,10 @@ We are going to use **JSON standard format** and so our API / web service will b
 
 ### Routes
 
+- `GET /`
+
+A route that will show this document and everyone can study more about the project as well as this README.markdown.
+
 - `GET /get`
 
 **Parameters:**
@@ -28,4 +32,25 @@ Default value of `limit` is 1 but you are able to change limit to any number of 
 
 This route not going to generate an email for you. this only generates random and UNIQUE names.
 
+**Output:**
+
+```json
+{
+   status: 1,
+   name: "alireza2000"
+}
+```
+
+Or maybe as following if you are asking for more than one name:
+
+```json
+{
+   "status": 1,
+   "names": [
+    "alireza2004",
+    "hamid.h3000"
+    "max.base1"
+   ]
+}
+```
 
