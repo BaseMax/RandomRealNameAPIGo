@@ -65,6 +65,13 @@ Or if something went wrong:
 
 **Note:** Obviously, the HTTP Code is expected to be 200 if the request is answered successfully. Otherwise, you can use the appropriate code according to the error.
 
+## Database or not?
+
+As it is clear, maybe there is no reason to use database in this project. But you can use the database you like.
+
+You can also use the file to store names and surnames.
+But keep in mind that your web service must be able to respond to a large number of simultaneous requests.
+
 ## Authors
 
 - Amir Shiati
