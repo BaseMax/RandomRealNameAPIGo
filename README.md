@@ -64,3 +64,10 @@ Or if something went wrong:
 ```
 
 **Note:** Obviously, the HTTP Code is expected to be 200 if the request is answered successfully. Otherwise, you can use the appropriate code according to the error.
+
+## Authors
+
+- Amir Shiati
+- Max Base
+
+Anyone is welcome to contribute, change or develop this project. Thanks in advance, Any comments are appreciated.
