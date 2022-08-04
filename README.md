@@ -73,6 +73,13 @@ Or if something went wrong:
 
 **Note:** Obviously, the HTTP Code is expected to be 200 if the request is answered successfully. Otherwise, you can use the appropriate code according to the error.
 
+## What do you need to search for?
+
+We need a long list of first names and last names.
+There are several public databases about names.
+
+It can be two different files too. One for first name and the second for family name.
+
 ## Database or not?
 
 As it is clear, maybe there is no reason to use database in this project. But you can use the database you like.
