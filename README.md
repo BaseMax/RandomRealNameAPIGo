@@ -36,8 +36,8 @@ This route not going to generate an email for you. this only generates random an
 
 ```json
 {
-   status: 1,
-   name: "alireza2000"
+   "status": 1,
+   "name": "alireza2000"
 }
 ```
 
@@ -54,3 +54,13 @@ Or maybe as following if you are asking for more than one name:
 }
 ```
 
+Or if something went wrong:
+
+```json
+{
+   "status": 0,
+   "message": "Oops, sorry. Something does not go as we expected."
+}
+```
+
+**Note:** Obviously, the HTTP Code is expected to be 200 if the request is answered successfully. Otherwise, you can use the appropriate code according to the error.
