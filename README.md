@@ -74,6 +74,10 @@ As it is clear, maybe there is no reason to use database in this project. But yo
 You can also use the file to store names and surnames.
 But keep in mind that your web service must be able to respond to a large number of simultaneous requests.
 
+## Why Assignment?
+
+Note, I have never applied for a job anywhere until now and this assignment project is designed by myself. Right now I'm enjoying GitHub and I'm not looking for solving assignments for others. Best Wishes.
+
 ## Authors
 
 - Amir Shiati
