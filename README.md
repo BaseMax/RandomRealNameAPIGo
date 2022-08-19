@@ -19,7 +19,7 @@ We are going to use **JSON standard format** and so our API / web service will b
 
 ### Technology
 
-Java and Kotlin, Ktor (which is a server-side and client-side network library)
+Java and Kotlin, Springs
 
 ### The main part
 
