@@ -59,7 +59,7 @@ Or maybe as following if you are asking for more than one name:
    "status": 1,
    "names": [
     "alireza2004",
-    "hamid.h3000"
+    "hamid.h3000",
     "max.base1"
    ]
 }
