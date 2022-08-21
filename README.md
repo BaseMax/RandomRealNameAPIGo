@@ -19,7 +19,7 @@ We are going to use **JSON standard format** and so our API / web service will b
 
 ### Technology
 
-Java and Kotlin, Springs
+Go
 
 ### The main part
 
