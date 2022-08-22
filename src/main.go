@@ -96,12 +96,13 @@ func GenerateRandomNames(limit int, gender string) []string {
 	var result []string
 
 	rand.Seed(time.Now().Unix())
-	for i := 0; i < limit; i++ {
+	for limit > 0 {
 		newName := GenerateName(nameList)
 		if slices.Contains(result, newName) {
 			continue
 		}
 		result = append(result, newName)
+		limit--
 	}
 	return result
 }
