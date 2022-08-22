@@ -15,9 +15,9 @@ import (
 )
 
 var (
-	MaleName   []string = ReadFromResource("../../../male-first-names.txt")
-	FemaleName []string = ReadFromResource("../../../female-first-names.txt")
-	FamilyName []string = ReadFromResource("../../../last-names.txt")
+	MaleName   []string = ReadFromResource("../male-first-names.txt")
+	FemaleName []string = ReadFromResource("../female-first-names.txt")
+	FamilyName []string = ReadFromResource("../last-names.txt")
 )
 
 var MiddleChar []string = []string{".", "_"}
@@ -41,7 +41,7 @@ func main() {
 }
 
 func idx(w http.ResponseWriter, req *http.Request) {
-	dat, err := os.ReadFile("../../../README.md")
+	dat, err := os.ReadFile("../README.md")
 	if err != nil {
 		json.NewEncoder(w).Encode(map[string]interface{}{
 			"status":  0,
