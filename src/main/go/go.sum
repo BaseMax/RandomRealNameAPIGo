@@ -1,0 +1,6 @@
+github.com/gomarkdown/markdown v0.0.0-20220627144906-e9a81102ebeb h1:5b/eFaSaKPFG9ygDBaPKkydKU5nFJYk08g9jPIVogMg=
+github.com/gomarkdown/markdown v0.0.0-20220627144906-e9a81102ebeb/go.mod h1:JDGcbDT52eL4fju3sZ4TeHGsQwhG9nbDV21aMyhwPoA=
+github.com/gomarkdown/mdtohtml v0.0.0-20220720154245-d5126442bcee h1:K0HD10xVzFVXIvi//7xipQpvis/iIBShyjvkD43gs7E=
+github.com/gomarkdown/mdtohtml v0.0.0-20220720154245-d5126442bcee/go.mod h1:yQkMXrQ+Kf0W5KUNz8xIh1x14C3Hiyw/2j/zcUaDrwA=
+golang.org/x/exp v0.0.0-20220722155223-a9213eeb770e h1:+WEEuIdZHnUeJJmEUjyYC2gfUMj69yZXw17EnHg/otA=
+golang.org/x/exp v0.0.0-20220722155223-a9213eeb770e/go.mod h1:Kr81I6Kryrl9sr8s2FK3vxD90NdsKWRuOIl2O4CvYbA=
