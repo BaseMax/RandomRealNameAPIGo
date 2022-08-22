@@ -75,7 +75,8 @@ func GenerateRandomNameHandler(w http.ResponseWriter, req *http.Request) {
 	}
 	gender := genderParam[0]
 
-	res := map[string]interface{}{
+	w.Header().Add("Content-Type", "application/json")
+	res := map[string]any{
 		"status": 1,
 		"names":  GenerateRandomNames(limit, gender),
 	}
@@ -101,7 +102,7 @@ func GenerateRandomNames(limit int, gender string) []string {
 		if slices.Contains(result, newName) {
 			continue
 		}
-		result = append(result, newName)
+		result = append(result, strings.Trim(newName, "\r"))
 	}
 	return result
 }
