@@ -75,7 +75,7 @@ func GenerateRandomNameHandler(w http.ResponseWriter, req *http.Request) {
 	}
 	gender := genderParam[0]
 
-	res := map[string]interface{}{
+	res := map[string]any{
 		"status": 1,
 		"names":  GenerateRandomNames(limit, gender),
 	}
