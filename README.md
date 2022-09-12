@@ -1,6 +1,6 @@
 # Random Real Name
 
-A short description of the project. TODO....
+A Go web-service API for generating random user-names (gender-aware), An online and secure service to create unique random usernames lists.
 
 ## Assignment
 
