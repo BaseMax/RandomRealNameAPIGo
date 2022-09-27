@@ -1,4 +1,4 @@
-# Random Real Name Go
+# Random Real Name API Go
 
 A Go web-service API for generating random user-names (gender-aware), An online and secure web-service to create unique random usernames lists.
 
